@@ -74,7 +74,7 @@ function display_carousel() {
           </div><!-- myCarousel -->
           
           <div id ="slogan" class="span3">
-            <h1 class ="tarzan-hero">Providing Backbone Logistics for Ghana's Cocoa Industry since 1942</h1>
+            <h1 class ="tarzan-hero">Providing Backbone Logistics for Ghana's Cocoa Industry since 1979</h1>
           </div> <!-- /slogan -->
 
         </div> <!-- /slideshow-slogan -->  
