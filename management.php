@@ -93,10 +93,6 @@
               <p>Secretary, Chief Accountant</p>
             </div>
             <div class ="one_person">
-              <h4>Essam Moghrabi</h4>
-              <p>Engineering</p>
-            </div>
-            <div class ="one_person">
               <h4>Nicolas Mensah</h4>
               <p>Port Operations</p>
             </div>
