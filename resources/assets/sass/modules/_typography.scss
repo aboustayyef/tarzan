@@ -1,0 +1,57 @@
+body{
+	font-size:16px;
+	line-height:1.5;
+}
+
+.tarzan__motto{
+	font-weight:800;
+}
+
+h1,h2,h3,h4{
+	font-weight:800;
+}
+
+@mixin LeadingParagraph(){
+	font-size:24px;
+	margin-bottom:20px;
+	line-height: 1.25;
+    font-weight: 300;
+}
+
+p.lead{
+	@include LeadingParagraph();
+}
+
+#content{
+	p:first-child { 
+	    @include LeadingParagraph();
+	}
+	p{
+		margin-bottom: 10px;
+	}
+
+	h2{
+		font-size:40px;
+		color:$red;
+		margin-bottom:15px;
+		&+p{
+			@include LeadingParagraph();
+		}
+	}
+
+	ul{
+		margin-bottom:10px;
+	}
+
+	h3{
+		font-size: 32px;
+	    margin: 10px 0;
+	    color: #656565;
+	}
+
+	h4{
+		font-size:24px;
+		margin:10px 0;
+		color:$red;
+	}
+}

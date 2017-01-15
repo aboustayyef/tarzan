@@ -1,0 +1,20 @@
+
+// Variables
+@import "variables";
+
+// Bulma
+@import "node_modules/bulma/bulma";
+
+// Flickity customizations
+@import "flickity";
+
+// Mustapha Utility Classes
+@import "mustapha_utilities";
+
+// Tarzan Website Styles
+@import "./modules/general";
+@import "./modules/navigation";
+@import "./modules/tarzan_services";
+@import "./modules/tarzan_news";
+@import "./modules/typography";
+@import "./modules/management";
