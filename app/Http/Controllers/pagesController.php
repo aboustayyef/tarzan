@@ -29,10 +29,10 @@ class pagesController extends Controller
 
     private function doSendEmail($email, $body){
       $to='mustapha.hamoui@gmail.com';
-      $messageSubject='[Tarzan Contact Form]';
+      $messageSubject='[Tarzan Contact Form], from ' . $email;
 
       // send email
-      mail($to,$messageSubject,$body,'From: '.$email."\r\n");
+      mail($to,$messageSubject,$body,'From: mustapha.hamoui@gmail.com'."\r\n");
 
     }
 }
