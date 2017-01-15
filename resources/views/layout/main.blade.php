@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>@yield('title')</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Tarzan Enterprise Ltd. is a private limited liability company whose main operational branch is located in Tema, Ghana"
 	@yield('extracss')
 	<link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
