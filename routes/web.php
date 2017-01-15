@@ -27,9 +27,9 @@ Route::get('latestPost', function(){
 
 Route::get('/{a?}/{b?}', [
 	'as'		=>		'pages',
-	'uses'		=>		'pagescontroller@index'
+	'uses'		=>		'pagesController@index'
 ]);
 
 Route::post('/learn/contact', [
-	'uses'		=>	'pagescontroller@postEmail'
+	'uses'		=>	'pagesController@postEmail'
 ]);
