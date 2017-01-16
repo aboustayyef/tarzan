@@ -14,7 +14,7 @@
 						<ul>
 							{!! tz_menu_item($title = "Haulage &amp; fleet", $path = 'services/haulage' , \Request::Path() ) !!}
 							{!! tz_menu_item($title = "Warehousing", $path = 'services/warehousing' , \Request::Path() ) !!}
-							{!! tz_menu_item($title = "Container", $path = 'services/container' , \Request::Path() ) !!}
+							{!! tz_menu_item($title = "Container Depot", $path = 'services/container' , \Request::Path() ) !!}
 							{!! tz_menu_item($title = "Commercial Stores", $path = 'services/stores' , \Request::Path() ) !!}
 
 						</ul>
