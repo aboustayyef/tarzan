@@ -7,24 +7,24 @@ use Illuminate\Http\Request;
 class pagesController extends Controller
 {
     function index($a, $b){
-    	return view('pages.'.$this->getPageCode($a,$b));
+        return view('pages.'.$this->getPageCode($a,$b));
     }
 
     function postEmail(Request $request){
-		$this->validate($request, [
-	        'email' => 'required|email',
-	        'emailmessage' => 'required|max:300',
-	    ]);
+        $this->validate($request, [
+            'email' => 'required|email',
+            'emailmessage' => 'required|max:300',
+        ]);
 
-		// Send Email if validation succeeds
-		$this->doSendEmail($request->get('email'), $request->get('emailmessage'));
+        // Send Email if validation succeeds
+        $this->doSendEmail($request->get('email'), $request->get('emailmessage'));
 
-		return redirect('/learn/contact')->with('successMessage', 'Your Email Has Been Sent');
+        return redirect('/learn/contact')->with('successMessage', 'Your Email Has Been Sent');
 
     }
 
     private function getPageCode($a,$b){
-    	return $a . ucfirst($b);
+        return $a . ucfirst($b);
     }
 
     private function doSendEmail($email, $body){
@@ -38,5 +38,5 @@ class pagesController extends Controller
 }
 
 // Pages Available so far:
-// 		servicesHaulage
-// 		servicesWarehousing
+//      servicesHaulage
+//      servicesWarehousing
