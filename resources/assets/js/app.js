@@ -1,5 +1,15 @@
-console.log('all done sir');
-
+// service worker stuff
+if (!('serviceWorker' in navigator)) {
+    console.log('service worker not supported');
+} else {
+    // register service worker
+    navigator.serviceWorker.register(
+        'service-worker.js'
+    )
+    .then(function(registration){
+        console.log(`SW Registered! Scope is: ${registration.scope}`);
+    });
+}
 // Flickity
 const Flickity = require('flickity-imagesloaded'); 
 require('flickity-bg-lazyload');

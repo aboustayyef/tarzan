@@ -7,6 +7,7 @@
 	@yield('extracss')
 	<link rel="stylesheet" href="{{asset('css/app.css')}}">
 	<link rel="manifest" href="/manifest.json">
+	<meta name="theme-color" content="#e83844">
 </head>
 <body>
 	@include('layout.partials.header')
