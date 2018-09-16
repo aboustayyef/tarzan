@@ -10,6 +10,17 @@ if (!('serviceWorker' in navigator)) {
         console.log(`SW Registered! Scope is: ${registration.scope}`);
     });
 }
+
+window.Axios = require('axios');
+
+// Vue
+window.Vue = require('vue');
+Vue.component('tarzan-news', require('./components/TarzanNews.vue'));
+
+const app = new Vue({
+    el: '#app'
+});
+
 // Flickity
 const Flickity = require('flickity-imagesloaded'); 
 require('flickity-bg-lazyload');

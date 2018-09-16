@@ -10,11 +10,13 @@
 	<meta name="theme-color" content="#e83844">
 </head>
 <body>
-	@include('layout.partials.header')
-	<content>
-		@yield('content')
-	</content>
-	@include('layout.partials.footer')
+		@include('layout.partials.header')
+		<div id="app">
+			<content>
+					@yield('content')
+			</content>
+		</div>
+		@include('layout.partials.footer')
 	
 
 	<script src="js/app.js"></script>
