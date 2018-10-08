@@ -25,6 +25,10 @@ Route::get('latestPost', function(){
 	return $latestpost;
 });
 
+Route::get('/special/tarzan-access-blue-gallery', function(){
+	return view('specials.tarzan-bg-access-2018');
+});
+
 Route::get('/{a?}/{b?}', [
 	'as'		=>		'pages',
 	'uses'		=>		'pagesController@index'
