@@ -30,8 +30,7 @@
 						<hr>
 						<p>October 10, 2018</p>
 						<strong>
-							Ziad M. Hamoui. Executive Director<br>
-							Executive Director, Operations
+							Ziad M. Hamoui.<br>Executive Director, Operations
 						</strong>
 					</p>
 				</div>
