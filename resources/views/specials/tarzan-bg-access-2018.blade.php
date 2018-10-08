@@ -29,9 +29,12 @@
 					<p>
 						<hr>
 						<p>October 10, 2018</p>
-						<strong>
-							Ziad M. Hamoui.<br>Executive Director, Operations
-						</strong>
+						<p>
+							<strong>
+								Ziad M. Hamoui.<br>Executive Director, Operations
+							</strong>
+						</p>
+						<p>0244 33 10 70<br/>ziad@hamoui.com</p>
 					</p>
 				</div>
 			</div>
