@@ -16,7 +16,7 @@
 			<h1 class="title is-size-4">Public Statement:</h1>
 			<h1 class="title is-size-2">ACCESS TO BLUE GALLERY COCOA WAREHOUSES</h1>
 			<p>In view of the seeming confusion regarding the readiness or accessibility of one of our warehousing facilities, commonly referred to as “Blue Gallery Warehouse”, which is located on the Aflao road towards the Tema Motorway Roundabout, the management of Tarzan Enterprise Limited would like to issue the following clarification to its cherished stakeholders in the cocoa industry in Ghana.</p>
-			<img src="/img/special/tarzan-bg-warehouses-access.png" alt="" style="margin:1em 0;border: 1px solid silver">
+			<a href="/img/special/access-tarzan.png"><img class="is-4by3" src="/img/special/access-tarzan.png" alt="" style="margin:1em 0;border: 1px solid silver"></a>
 			<div class="columns">
 				<div class="column is-one-half">
 					<p>Despite the ongoing disruption of the normal traffic flow around Tema Motorway Roundabout and its connecting roads, due to the combined effect of the “Tema Intersection Road Expansion Project” and the “Tema-Akosombo Railway Project”, all the warehouse facilities of Tarzan Enterprise Ltd. remain unaffected in their operations.</p>
