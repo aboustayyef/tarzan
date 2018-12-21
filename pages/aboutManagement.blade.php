@@ -35,11 +35,6 @@
 			<div class="management__title">Managing Director</div>
 		</div>
 
-		<div class="column is-one-third">
-			<div class="management__name">Riad M. Hamoui</div>
-			<div class="management__title">Senior Executive Director</div>
-		</div>
-
 	</div>
 
 	<hr>
