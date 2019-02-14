@@ -35,11 +35,6 @@
 			<div class="management__title">Managing Director</div>
 		</div>
 
-		<div class="column is-one-third">
-			<div class="management__name">Riad M. Hamoui</div>
-			<div class="management__title">Senior Executive Director</div>
-		</div>
-
 	</div>
 
 	<hr>
@@ -101,14 +96,6 @@
 			<div class="management__name">D. A. Gyimah</div>
 			<div class="management__title">Secretary, Chief Accountant</div>
 		</div>
-
-		<div class="column is-one-third">
-			<div class="management__name">Nicolas Mensah</div>
-			<div class="management__title">Port Operations</div>
-		</div>
-
-	</div>
-	<div class="columns">
 
 		<div class="column is-one-third">
 			<div class="management__name">Lawrence Asamoah</div>			
