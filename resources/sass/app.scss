@@ -1,8 +1,20 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
-@import 'variables';
+@import "variables";
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// Bulma
+@import "node_modules/bulma/bulma";
+
+// Flickity customizations
+@import "flickity";
+
+// Mustapha Utility Classes
+@import "mustapha_utilities";
+
+// Tarzan Website Styles
+@import "./modules/general";
+@import "./modules/navigation";
+@import "./modules/tarzan_services";
+@import "./modules/tarzan_news";
+@import "./modules/typography";
+@import "./modules/management";

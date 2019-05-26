@@ -1,0 +1,17 @@
+body, html{
+	height:100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+content{
+	flex-grow:1;
+}
+
+.is-short{
+	border-bottom:1px solid lighten(silver,15);
+}

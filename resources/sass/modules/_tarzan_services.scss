@@ -1,0 +1,41 @@
+
+.tarzan_services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarzan_service__tile {
+    background: grey;
+    position: relative;
+    height: 100px;
+    width: calc((100% - 1em) / 2);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    &.has_bottom_margin{
+    	margin-bottom:1em;
+    }
+	&.has_right_margin{
+		margin-right:1em;
+	}
+}
+
+.tarzan_service__headline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 2em;
+    font-weight: 800;
+    color: white;
+    height: 50px;
+    background: linear-gradient(to bottom, transparent, rgba(10, 10, 10, 0.5));
+    width: 100%;
+    padding-left: 5px;
+    @media all and (max-width:1030px){
+		font-size:1.3em;
+		line-height:1;
+    }
+    &:hover{
+        background:$red;
+        color:white;
+    }
+}
