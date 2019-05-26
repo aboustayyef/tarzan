@@ -39,7 +39,7 @@
 						<ul>
 						
 							{!! tz_menu_item($title = "Location", $path = 'learn/location' , \Request::Path() ) !!}
-							{!! tz_menu_item($title = "Contact Us", $path = 'learn/contact' , \Request::Path() ) !!}
+							{!! tz_menu_item($title = "Contact Us", $path = 'contact' , \Request::Path() ) !!}
 						</ul>
 					</div>
 				</div>

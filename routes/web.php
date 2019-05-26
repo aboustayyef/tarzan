@@ -29,11 +29,9 @@ Route::get('/special/tarzan-access-blue-gallery', function(){
 	return view('specials.tarzan-bg-access-2018');
 });
 
+Route::resource('contact', 'ContactController',['only'=>['index','store']]);
+
 Route::get('/{a?}/{b?}', [
 	'as'		=>		'pages',
 	'uses'		=>		'pagesController@index'
-]);
-
-Route::post('/learn/contact', [
-	'uses'		=>	'pagesController@postEmail'
 ]);
