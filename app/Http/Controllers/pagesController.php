@@ -7,11 +7,7 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
     function index($a, $b){
-        return view('pages.'.$this->getPageCode($a,$b));
-    }
-
-    private function getPageCode($a,$b){
-        return $a . ucfirst($b);
+        return view('pages.'. $a . ucfirst($b) );
     }
 }
 
