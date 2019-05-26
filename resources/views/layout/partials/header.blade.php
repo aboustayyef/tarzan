@@ -1,3 +1,13 @@
+@php
+
+// Prepare helper function to draw menu
+function tz_menu_item($title = "home", $path = '/', $requestPath){
+	$isactive = $path == $requestPath ? 'active' : '';
+	return '<a href="/' . $path . '"><li class="tarzan_nav__link ' . $isactive . '" >' . $title . '</li></a>' . '<!--' . $requestPath .  '-->';
+}
+
+@endphp
+
 <header class="section">
 	<div class="container">
 		<div class="columns is-short">

@@ -15,11 +15,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/cache-clear', function(){
-	\Cache::forget('postDetails');
-	return redirect('/');
-});
-
 Route::get('latestPost', function(){
 	$latestpost = json_decode(file_get_contents('https://news.tarzan.com.gh/wp-json/wp/v2/posts'));
 	return $latestpost;
@@ -33,5 +28,5 @@ Route::resource('contact', 'ContactController',['only'=>['index','store']]);
 
 Route::get('/{a?}/{b?}', [
 	'as'		=>		'pages',
-	'uses'		=>		'pagesController@index'
+	'uses'		=>		'PagesController@index'
 ]);
